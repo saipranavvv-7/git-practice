@@ -6,12 +6,12 @@ from suggestion import get_recommendations, random_movie_suggestion
 from farewell import get_farewell_message, get_encouragement, get_final_signoff
 
 def main():
-    print("=== Movie Night Planner ===\n")
+    print("=== Movie Night Plannerr ===\n")
     
     # Get user's name
     name = input("What's your name? ").strip()
     if not name:
-        name = "Movie Fan"
+        name = "Movie fannn"
     
     # Greeting
     print("\n" + message(name))
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 
 import random
-random.seed(1)
+#random.seed(1)
 l=[random.randint(1,3) for x in range(500)]
 vote={}
 for i in range(1,4):
